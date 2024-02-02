@@ -1,0 +1,23 @@
+1.Open GitBash in folder. 
+2.Start Git-
+	Cmd-  git init 
+	use-  To Initilize folder
+3.use - To check status i.e(Folders,files,branch)
+	Cmd- git status
+4. use- to track (To add All Files In Current folder)
+	Cmd-git add .
+5.use- To save 
+	Cmd- git commit -m "first commit"
+6.Authenticate user and link gitHub Account-
+	Cmd- 1. git config --global user.email "you@example.com"
+	     2. git config --global user.name "Hitesh-codec"
+7.Link Repository(Remotely Access)- 
+	Cmd-git remote add origin https://github.com/Hitesh-codec/FirstProject.git
+
+8.use- Add the data or Code from the folder to repository.
+	Cmd- git push -u origin master
+
+9.use- make changes done repository to folder .
+	Cmd- git pull
+
+
